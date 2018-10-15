@@ -1,5 +1,7 @@
 package Caso1_Builder;
 
+
+/* Concrete Builder */
 public class GarroteConcreteBuilder extends ArmaBuilder {
 
 

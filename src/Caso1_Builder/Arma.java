@@ -1,5 +1,6 @@
 package Caso1_Builder;
 
+/* Product */
 public class Arma {
     private String nombre;
     private int poder;

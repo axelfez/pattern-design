@@ -1,5 +1,6 @@
 package Caso1_Builder;
 
+/* Abstract Builder */
 public abstract class ArmaBuilder {
     protected Arma arma;
 

@@ -1,5 +1,6 @@
 package Caso1_Builder;
 
+/* Concrete Builder */
 public class HachaConcreteBuilder extends ArmaBuilder {
 
 
