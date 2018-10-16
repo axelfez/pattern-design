@@ -1,4 +1,4 @@
-package Caso4_Adapter;
+package Caso3_Bridge;
 
 public interface IEsquema {
 
