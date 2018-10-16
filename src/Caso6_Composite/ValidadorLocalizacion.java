@@ -3,8 +3,8 @@ package Caso6_Composite;
 public class ValidadorLocalizacion implements IValidator {
 
     @Override
-    public String validate(InformaciónUsuario informaciónUsuario) {
-        Localizacion localizacion = informaciónUsuario.getLocalizacion();
+    public String validate(InformacionUsuario informacionUsuario) {
+        Localizacion localizacion = informacionUsuario.getLocalizacion();
 
         String correoElectronico = localizacion.getCorreoElectronico();
         int apartadoPostal = localizacion.getApartadoPostal();

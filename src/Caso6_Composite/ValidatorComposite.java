@@ -18,10 +18,10 @@ public class ValidatorComposite implements IValidator {
     }
 
     @Override
-    public String validate(InformaciónUsuario informaciónUsuario) {
+    public String validate(InformacionUsuario informacionUsuario) {
         String res = "";
         for(IValidator validator : validators){
-            res += validator.validate(informaciónUsuario);
+            res += validator.validate(informacionUsuario);
         }
         if(res.equals("")) res = "Todo en orden";
 

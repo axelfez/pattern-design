@@ -2,9 +2,9 @@ package Caso6_Composite;
 
 public class ValidadorContraseña implements IValidator {
     @Override
-    public String validate(InformaciónUsuario informaciónUsuario) {
+    public String validate(InformacionUsuario informacionUsuario) {
         String res = "";
-        String contraseña = informaciónUsuario.getContraseña();
+        String contraseña = informacionUsuario.getContraseña();
 
         if(contraseña.equals("")) res += "La contraseña no es valida" + "\n";
 

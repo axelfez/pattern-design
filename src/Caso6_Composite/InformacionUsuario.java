@@ -1,12 +1,12 @@
 package Caso6_Composite;
 
-public class InformaciónUsuario {
+public class InformacionUsuario {
     private String nombre;
     private int edad;
     private Localizacion localizacion;
     private String contraseña;
 
-    public InformaciónUsuario(String nombre, int edad, Localizacion localizacion, String contraseña){
+    public InformacionUsuario(String nombre, int edad, Localizacion localizacion, String contraseña){
         this.setNombre(nombre);
         this.setEdad(edad);
         this.setLocalizacion(localizacion);

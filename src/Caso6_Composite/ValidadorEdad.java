@@ -4,8 +4,8 @@ public class ValidadorEdad implements IValidator {
 
 
     @Override
-    public String validate(InformaciónUsuario informaciónUsuario) {
-        int edad = informaciónUsuario.getEdad();
+    public String validate(InformacionUsuario informacionUsuario) {
+        int edad = informacionUsuario.getEdad();
         String res = "";
         if(edad < 18) res += "El usuario debe ser mayor de edad" + "\n";
         return res;

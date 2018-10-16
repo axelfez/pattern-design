@@ -7,19 +7,19 @@ public class CompositeMain {
 
 
         Localizacion localizacion = new Localizacion("", 0, "", "");
-        InformaciónUsuario informaciónUsuario = new InformaciónUsuario("", 15, localizacion, "" );
+        InformacionUsuario informacionUsuario = new InformacionUsuario("", 15, localizacion, "" );
 
 
 
-        String res = validator.validate(informaciónUsuario);
+        String res = validator.validate(informacionUsuario);
 
         System.out.println(res);
 
         localizacion = new Localizacion("aobm@gmail.com", 40301, "Santo Domingo", "Costa Rica");
-        informaciónUsuario = new InformaciónUsuario("Andres Brenes", 20, localizacion, "HolaMundo" );
+        informacionUsuario = new InformacionUsuario("Andres Brenes", 20, localizacion, "HolaMundo" );
 
-        res = validator.validate(informaciónUsuario);
-        
+        res = validator.validate(informacionUsuario);
+
         System.out.println(res);
 
     }

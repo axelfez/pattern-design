@@ -2,5 +2,5 @@ package Caso6_Composite;
 
 public interface IValidator {
 
-    String validate(InformaciónUsuario informaciónUsuario);
+    String validate(InformacionUsuario informacionUsuario);
 }
