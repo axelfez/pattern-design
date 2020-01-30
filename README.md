@@ -11,8 +11,12 @@
 5. Command se utiliza para realizar tareas en cola.
 6. State es utilizado en un robot, que tiene diferentes tareas.
 
-## Credits
+## Créditos
 
 [Andrés Brenes Maleaño](https://github.com/Brends31)
 
 [Axel Fernández Jiménez](https://github.com/axelfez)
+
+## Fuentes de Ayuda
+
+[Source Making - Design Patterns](https://sourcemaking.com/design-patterns-ebook)
